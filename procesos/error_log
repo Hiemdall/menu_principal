@@ -1,0 +1,6 @@
+[28-Aug-2023 21:42:19 UTC] PHP Warning:  Undefined array key "username" in /home/blockbl5/public_html/procesos/proceso_login.php on line 5
+[28-Aug-2023 21:42:19 UTC] PHP Warning:  Undefined array key "password" in /home/blockbl5/public_html/procesos/proceso_login.php on line 6
+[28-Aug-2023 21:42:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/blockbl5/public_html/procesos/proceso_login.php:38) in /home/blockbl5/public_html/procesos/proceso_login.php on line 39
+[11-Sep-2023 17:23:49 UTC] PHP Warning:  Undefined array key "username" in /home/blockbl5/public_html/procesos/proceso_login.php on line 5
+[11-Sep-2023 17:23:49 UTC] PHP Warning:  Undefined array key "password" in /home/blockbl5/public_html/procesos/proceso_login.php on line 6
+[11-Sep-2023 17:23:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/blockbl5/public_html/procesos/proceso_login.php:38) in /home/blockbl5/public_html/procesos/proceso_login.php on line 39
