@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Sistemas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container my-5">
+    <div class="row">
+        <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- Tarjeta con Card # 1 -->
+        <div class="col-md-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#modalSistema1" data-sistema-id="sistema1" style="width: 200px; height: auto; justify-content: center; align-items: center;">
+                <img src="programador.jpg" class="card-img-top" alt="Sistema 1" style="width: 150px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 15px;">Nombre del Sistema 1</h5>
+                    <!-- Ícono de estrella vacía (far) -->
+                    <span class="estado-programa"><i class="far fa-star"></i></span>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Modal # 1-->
+<div class="modal fade" id="modalSistema1" tabindex="-1" aria-labelledby="modalSistema1Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- Imagen con tamaño ajustado -->
+                <img src="programador.jpg" class="card-img-top" alt="Sistema 1" style="width: 150px; height: auto;">
+                <h5 class="modal-title" id="modalSistema1Label">Nombre del Sistema 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar" onclick="redireccionarAIndex()"></button>
+               <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>-->
+            </div>
+            <div class="modal-body">
+                <p class="card-text" id="descripcion-sistema"></p>
+            </div>
+            <div class="modal-footer">
+                <!-- Botón para cerrar el modal -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="redireccionarAIndex()">Cerrar</button>
+                
+                <!-- Nuevo botón para redirigir a sistema.html -->
+                <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Tarjeta con Card # 2 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modalSistema2" data-sistema-id="sistema2" style="width: 200px; height: auto; justify-content: center; align-items: center;">
+                    <img src="conexion.jpg" class="card-img-top" alt="Sistema 2" style="width: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 15px;">Nombre del Sistema 2</h5>
+                        <!-- Ícono de estrella vacía (far) -->
+                        <span class="estado-programa"><i class="far fa-star"></i></span>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+            <!-- Modal # 2-->
+<div class="modal fade" id="modalSistema2" tabindex="-1" aria-labelledby="modalSistema2Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="conexion.jpg" class="card-img-top" alt="Sistema 2" style="width: 150px; height: auto;">
+                <h5 class="modal-title" id="modalSistema2Label">Nombre del Sistema 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar" onclick="redireccionarAIndex()"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal -->
+                <p class="card-text" id="descripcion-sistema"></p>
+            </div>
+            <div class="modal-footer">
+                 <!-- Botón para cerrar el modal -->
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="redireccionarAIndex()">Cerrar</button>
+                
+                 <!-- Nuevo botón para redirigir a sistema.html -->
+                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Tarjeta con Card # 3 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modalSistema3" data-sistema-id="sistema3" style="width: 200px; height: auto; justify-content: center; align-items: center;">
+                    <img src="programador.jpg" class="card-img-top" alt="Sistema 3" style="width: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 15px;">Nombre del Sistema 3</h5>
+                        <!-- Ícono de estrella vacía (far) -->
+                        <span class="estado-programa"><i class="far fa-star"></i></span>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+            <!-- Modal # 3-->
+<div class="modal fade" id="modalSistema3" tabindex="-1" aria-labelledby="modalSistema3Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="programador.jpg" class="card-img-top" alt="Sistema 3" style="width: 150px; height: auto;">
+                <h5 class="modal-title" id="modalSistema3Label">Nombre del Sistema 3</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar" onclick="redireccionarAIndex()"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal -->
+                <p class="card-text" id="descripcion-sistema"></p>
+            </div>
+            <div class="modal-footer">
+                 <!-- Botón para cerrar el modal -->
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="redireccionarAIndex()">Cerrar</button>
+                
+                 <!-- Nuevo botón para redirigir a sistema.html -->
+                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Esto es lo que hay que cambiar para cerae un nuevo card con su imagen y  su ventana modal
+card:
+data-bs-target="#modalSistema2"
+data-sistema-id="sistema2" 
+src="conexion.jpg"
+<h5 class="card-title" style="font-size: 15px;">Nombre del Sistema 2</h5>
+
+
+Modal:
+id="modalSistema2"
+aria-labelledby="modalSistema2Label"
+mg src="conexion.jpg"
+alt="Sistema 2"
+<h5 class="modal-title" id="modalSistema2Label">Nombre del Sistema 2</h5>
+
+Json archivo(descripciones.json)
+{
+    "sistema1": {
+        "nombre": "Nombre del Sistema 1",
+        "descripcion": "Descripción del Sistema 1",
+        "estrella_llena": true
+    },
+    
+    "sistema2": {
+        "nombre": "Nombre del Sistema 2",
+        "descripcion": "Descripción del Sistema 2",
+        "estrella_llena": true
+    }
+}
+
+
+
+-->
+<!-- Bootstrap Bundle con Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Scripts Personalizados -->
+<script src="scripts.js"></script>
+<script src="start.js"></script>
+</body>
+</html>
+
