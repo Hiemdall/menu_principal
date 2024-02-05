@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Cargar descripciones desde JSON
-    fetch('descripciones.json') // Cambia 'descripciones.json' por el nombre correcto de tu archivo JSON
+    fetch('./js/descripciones.json') // Cambia 'descripciones.json' por el nombre correcto de tu archivo JSON
         .then(response => response.json())
         .then(data => {
             // Añadir un evento de clic a cada tarjeta que abre un modal
@@ -32,5 +32,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function redireccionarAIndex() {
-    window.location.href = './index.html';
+    window.location.href = '/index.html';
 }

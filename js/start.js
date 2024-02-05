@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Cargar estados de las estrellas desde JSON al cargar la página
-    fetch('descripciones.json') // Cambia 'estado.json' por el nombre correcto de tu archivo JSON
+    fetch('./js/descripciones.json') // Cambia 'estado.json' por el nombre correcto de tu archivo JSON
         .then(response => response.json())
         .then(data => {
             // Añadir un evento de clic a cada tarjeta que abre un modal

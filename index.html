@@ -81,7 +81,7 @@
                             </div>
                             <div class="modal-footer">
                                 <!-- Botón para cerrar el modal -->
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.location.href='index.html'">Cerrar</button>
                                 <!-- Nuevo botón para redirigir a sistema.html -->
                                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
                             </div>
@@ -113,7 +113,7 @@
                             </div>
                             <div class="modal-footer">
                                 <!-- Botón para cerrar el modal -->
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.location.href='index.html'">Cerrar</button>
                                 <!-- Nuevo botón para redirigir a sistema.html -->
                                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
                             </div>
@@ -145,14 +145,14 @@
                             </div>
                             <div class="modal-footer">
                                 <!-- Botón para cerrar el modal -->
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.location.href='index.html'">Cerrar</button>
                                 <!-- Nuevo botón para redirigir a sistema.html -->
                                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- Tarjeta con Card # 4 -->
                 <div class="col-md-2">
                     <div class="card" data-bs-toggle="modal" data-bs-target="#modalSistema4" data-sistema-id="sistema4">
                         <img src="./img/programador.jpg" class="card-img-top" alt="Sistema 4" >
@@ -163,12 +163,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- Modal # 3-->
+                <!-- Modal # 4-->
                 <div class="modal fade" id="modalSistema4" tabindex="-1" aria-labelledby="modalSistema4Label" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="modalSistema3Label">Nombre del Sistema 4</h5>
+                                <h5 class="modal-title" id="modalSistema4Label">Nombre del Sistema 4</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                             </div>
                             <div class="modal-body">
@@ -176,13 +176,45 @@
                             </div>
                             <div class="modal-footer">
                                 <!-- Botón para cerrar el modal -->
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.location.href='index.html'">Cerrar</button>
                                 <!-- Nuevo botón para redirigir a sistema.html -->
                                 <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Tarjeta con Card # 5 -->
+                <div class="col-md-2">
+                                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalSistema5" data-sistema-id="sistema5">
+                                        <img src="./img/programador.jpg" class="card-img-top" alt="Sistema 5" >
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre del Sistema 5</h5>
+                                            <!-- Ícono de estrella vacía (far) -->
+                                            <span class="estado-programa"><i class="far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                </div>
+                <!-- Modal # 5-->
+                <div class="modal fade" id="modalSistema5" tabindex="-1" aria-labelledby="modalSistema5Label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalSistema5Label">Nombre del Sistema 5</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="card-text" id="descripcion-sistema">Descripción del Sistema 5</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Botón para cerrar el modal -->
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.location.href='index.html'">Cerrar</button>
+                                                <!-- Nuevo botón para redirigir a sistema.html -->
+                                                <button type="button" class="btn btn-primary" onclick="window.location.href='sistema.html'">Ir a Sistema</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -248,8 +280,9 @@ Json archivo(descripciones.json)
 <!-- Bootstrap Bundle con Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Scripts Personalizados -->
-<script src="/js/scripts.js"></script>
-<script src="/js/descripciones.json"></script>
+<script src="./js/scripts.js"></script>
+<script src="./js/start.js"></script>
+<script src="./js/descripciones.json"></script>
 <script src="/js/main.js"></script>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

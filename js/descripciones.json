@@ -15,5 +15,17 @@
         "nombre": "Nombre del Sistema 3",
         "descripcion": "Descripción del Sistema 3, sistema para comparar",
         "estrella_llena": true
+    },
+
+    "sistema4": {
+        "nombre": "Nombre del Sistema 4",
+        "descripcion": "Descripción del Sistema 4, sistema para comparar",
+        "estrella_llena": true
+    },
+
+    "sistema5": {
+        "nombre": "Nombre del Sistema 5",
+        "descripcion": "Descripción del Sistema 5, sistema para comparar",
+        "estrella_llena": true
     }
 }
